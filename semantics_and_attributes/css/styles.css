@@ -46,13 +46,14 @@ footer p {
 }
 
 #card_image {
-    height: 150px;
+    width: 100%;
     margin: 2px;
-    float: left;
+    
 }
 #image_container {
     float: left;
     padding-right: 24px;
+    width: 400px;
 }
 #clear {
     clear: both;
