@@ -1,12 +1,17 @@
 nav {
     margin-bottom: 50px;
     margin-top: 50px;
+    border: 1px solid black;
+    width: 160px;
+    height: 200px
+
 }
 
 #zane_image_1 {
     width: 300px;
     float: right;
     margin: 12px;
+   
 }
 
 #zane_image_2 {
@@ -31,7 +36,8 @@ artical {
 }
 
 .quote_end {
-    margin-left: 350px;
+    
+    text-align: right;
 }
 
 header {
@@ -41,6 +47,8 @@ header {
 
 #past_quote_header {
     font-style: italic;
+    line-height: 1.75;
+
 }
 
 h1 {
@@ -51,7 +59,7 @@ h1 {
 
 b {
     font-weight: bold;
-    color: 
+    
 }
     
 
