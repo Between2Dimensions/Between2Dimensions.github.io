@@ -6,7 +6,7 @@ nav {
 
 ul {
     display: flex;
-    list-style-type: none;
+    list-style-type: none; 
     justify-content: center;
     align-items: center;
     padding: 0px;
@@ -14,7 +14,7 @@ ul {
     margin: 0px auto;
 }
 
-ul li {
+ul li { 
     padding: 12px;
    
 }
@@ -52,6 +52,7 @@ li a {
     top: 100%;
 }
 
+
 body {
     background-color: #4D4D4D;
 }
@@ -68,9 +69,22 @@ li a:hover {
 #icon {
     width: 150px;
     max-height: 100%;
+    transition: 0.5s;
+}
+#icon:hover {
+    opacity:80%;
 }
 #home {
     margin-right: auto;
+}
+h1 {
+    color:#E6E6E6;
+    font-family: cursive;
+}
+#menu_img {
+    width: 1000px;
+    justify-content: center;
+    align-items:center;
 }
 
 
@@ -82,7 +96,7 @@ li a:hover {
     #home {
         margin-right: 0px;
     }
-    
+
     
 }
 
