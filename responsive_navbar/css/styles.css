@@ -86,12 +86,7 @@ p {
     color:#E6E6E6;
     font-family: cursive;
 }
- /*.main_1 {
-    display: flex;
-    align-items: center;
-    margin: 24px; 
-}
-    */
+ 
 
 #menu_img {
     width: 1000px;
@@ -118,6 +113,21 @@ p {
 #pancakes_img {
     width: 500px;
     border-radius: 50px 50px 50px;
+}
+footer {
+    background-color:#E6E6E6;
+    color:#4D4D4D;
+    padding: 24px;
+}
+.footer_text {
+    color:#4D4D4D;
+    text-align: center;
+    
+}
+.main {
+    width: 800px;
+    margin: 24px auto;
+    text-align: center;
 }
 
 
