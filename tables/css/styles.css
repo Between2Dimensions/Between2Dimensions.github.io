@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    box-shadow: 0 0 20px lightgrey;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+}
+
+thead {
+    font-family: sans-serif;
+    color: white;
+    border-radius: 15px;
+   
+}
+
+tr {
+    border-bottom: 1px solid lightgrey;
+}
+
+.shade_me {
+    transition: 1.0s;
+}
+
+.shade_me:hover {
+    background-color: lightgrey;
+}
+
+thead tr {
+    background-color: teal;
+}
+
+tbody tr:nth-child(even) {
+    background-color:rgb(242, 238, 238);
+    color: teal;
+}
+
