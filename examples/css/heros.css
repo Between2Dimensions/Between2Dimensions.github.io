@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+}
+
+p {
+    font-size: px;
+    margin: 24px;
+    height: 50px;
+}
+
+#hero_1 {
+    background-image: url("../images/legend_awakened_by_between2dimensions_detpxeo-pre.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+#hero_1 h1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    color: white;
+    font-family: cursive;
+    font-size: 60px;
+}
+
+#hero_2 {
+    background-image: url(../images/the_realm_walker__ninjago_united____time_lapse_by_between2dimensions_dftfq47-pre.jpeg);
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+#hero_2 h2 {
+    font-family: cursive;
+    font-size: 60px;
+}
+#hero_2 h3 {
+    font-family:cursive;
+    font-size: 48px;
+}
+#hero_3 {
+    background-image: url(../images/ezgif-3-be832d63fc.gif);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-shadow: 2px 2px 3px black;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+#hero_3 h2 {
+    font-family: cursive;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+#hero_3 h3 {
+    font-family: cursive;
+    font-size: 48px;
+    padding-bottom: 60px;
+
+}
