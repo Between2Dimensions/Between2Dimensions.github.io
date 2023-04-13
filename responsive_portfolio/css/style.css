@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    background-color: rgb(27, 27, 30);
 }
 
 h1,
@@ -41,7 +42,7 @@ a {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: rgb(222, 221, 221);
 }
 
 nav a:hover,
@@ -136,7 +137,7 @@ nav .social_media {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: rgb(226, 224, 224);
 }
 
 nav a:hover,
@@ -165,7 +166,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../images/abstractBackground.jpg");
+    background-image: url("../images/f388b998-261c-48ab-b53c-f8b3bb3884c2.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -203,10 +204,13 @@ footer ul {
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
-    box-shadow: 4px 4px 8px 0px grey;
+    box-shadow: 4px 4px 8px 0px black;
     flex: 1;
     display: flex;
     flex-direction: column;
+    background-color:rgb(41, 40, 40);
+    color: rgb(210, 208, 208)
+    
 
 }
 
@@ -220,8 +224,16 @@ footer ul {
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
+#carousel_container {
+    margin: 34px;
+}
+
+
 #gallery_container {
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: rgb(219, 218, 218)
 }
 
 #gallery_1 {
