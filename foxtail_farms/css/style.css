@@ -247,6 +247,10 @@ footer ul {
     color:#E1A177
 }
 
+.card img {
+    width: 100%;
+}
+
 .card p {
     font-size: 18px;
     flex: 1;
