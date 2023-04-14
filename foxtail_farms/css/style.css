@@ -120,6 +120,14 @@ nav {
 
 }
 
+#logo {
+    flex: 1;
+}
+
+ul li {
+    font-size: 24px;
+}
+
 .nav_text {
     justify-content: center;
 }
