@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Fuzzy Buddies: Pet Registration</h1>
+        <form>
+            <fieldset>
+                <legend>Pet Information</legend>
+                <p>What is your Pet's Name?</p>
+                <div>
+                    <label for="name_id">Name</label>
+                    <input type="text" id="name_id" name="name">
+                </div>
+                <p>How old is your pet?</p>
+                <div>
+                    <label for="name_id">Age</label>
+                    <input type="text" id="name_id" name="name">
+                </div>
+                <p>Does your pet have any special needs?</p>
+                <div>
+                    <label for="needs_id"></label>
+                    <textarea 
+                    id="needs_id" 
+                    name="pet_needs"
+                    rows="5"
+                    cols="40"
+                    placeholder="insert text here"></textarea>
+                </div>
+                <div>
+                    <p>What sized pet do you have?</p>
+                    <div>
+                        <input type="radio" id="extra_small_checkbox" name="size" value="extra_small">
+                        <label for="extra_small_checkbox">Extra Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="small_checkbox" name="size" value="small">
+                        <label for="small_checkbox">Small</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="medium_checkbox" name="size" value="medium">
+                        <label for="medium_checkbox">Medium</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="large_checkbox" name="size" value="large">
+                        <label for="large_checkbox">Large</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="oversized_checkbox" name="size" value="oversized">
+                        <label for="oversized_checkbox">Oversized</label>
+                    </div>
+                </div>
+                <div>
+                    <label for="food_group_id">
+                        What Pet do you have?
+                    </label>
+                    <select id="animal_group_id" name="animal_group">
+                        <option value="Dog">Dog</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Horse">Horse</option>
+                        <option value="Sugar-Glider">Sugar-Glider</option>
+                        <option value="Hampster">Hampster</option>
+                        <option value="Rabbit">Rabbit</option>
+                        <option value="Bird">Bird</option>
+                        <option value="Farret">Farret</option>
+                        <option value="Snake">Snake</option>
+                        <option value="Turtle">Turtle</option>
+                        <option value="Lizard">Lizard</option>
+                        <option value="Llama">Llama</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+            </form>
+        </body>
+</html>
