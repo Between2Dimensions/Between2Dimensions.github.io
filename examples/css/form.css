@@ -1,0 +1,109 @@
+.text_input label {
+    display: block;
+}
+
+.text_input input{
+    margin: 4px 0px 16px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+}
+
+#first_name_id {
+    border: 0px;
+    border-bottom: 4px solid blue;
+    
+}
+
+#first_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(205, 230, 240);
+}
+#last_name_id {
+    border: 5px solid lightgreen;
+    border-radius: 24px;
+    color: darkgreen
+}
+
+#last_name_id:focus-visible {
+    outline: 0;
+    background: darkgreen;
+    color: white;
+}
+
+#code_feelings_id {
+    width: 400px;
+    height: 100px;
+    margin-top: 4px;
+    padding: 12px;
+    font-family: verdana, sans-serif;
+}
+
+#bike_checkbox,
+#rasp_radio {
+    border: 5px, solid aqua;
+    color: aqua;
+    background-color: aqua;
+}
+
+input[type=date] {
+    padding: 12px;
+    border: 3px dashed purple;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+select {
+    padding: 12px;
+    border: 3px dashed purple;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+input[type=button] {
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: darkgrey;
+    color:white;
+}
+
+input[type=reset] {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    margin-right: 12px;
+    background: linear-gradient(to bottom,aqua, rgb(5, 95, 92));
+    color: white;
+}
+
+input[type=reset]:active {
+    background: linear-gradient(to top,aqua, rgb(5, 95, 92));
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom, aqua, black);
+    border: 0px;
+    border-radius: 8px;
+    padding: 12px, 48px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+
+input[type=submit]:active {
+    background: linear-gradient(to top, aqua, black);
+}
+
+
+
+
+
+

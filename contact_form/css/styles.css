@@ -1,0 +1,88 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ". header_area ."
+        ". main_area ."
+}
+header {
+    grid-area: header_area;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+
+h5 {
+    font-family: cursive;
+}
+
+#question_id {
+    font-family: cursive;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+form {
+    background-color:azure;
+    border: 2px solid #CCC;
+    padding: 36px;
+    border-radius: 35px;
+    text-align: center;
+    font-family: cursive;
+    background-image: url(../images/the_dragon_of_konahrik_by_between2dimensions_de8inbm-pre\ copy.jpg);
+}
+
+.text_input label {
+    display: block;
+}
+.text_input {
+    padding: 34px;
+    margin: 24px;
+}
+
+#email_id {
+    font-family: cursive;
+}
+
+#name_id {
+    font-family: cursive;
+}
+
+#message_id {
+    font-family: cursive;
+}
+
+input[type=submit] {
+    background: rgb(28, 27, 27);
+    color:#CCC;
+    border: 0px;
+    padding: 12px;
+    width: 20%;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: cursive;
+}
+
+input[type=submit]:active {
+    background-color:goldenrod;
+    color: white;
+}
+
+input[type=submit]:hover {
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.text_input input:hover{
+    background-color:rgb(254, 232, 176);
+}
+
+
+

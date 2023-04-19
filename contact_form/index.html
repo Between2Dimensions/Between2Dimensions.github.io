@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>Contact Me</h1>
+                <hr>
+                <h5>
+                    If you have any questions at all, don't hesitate to contact me.
+                    I am happy to answer any questions you may have, and will respond as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    <div>
+                        <label for="question_id">
+                            What do you have a question about?
+                        </label>
+                        <select id="question_id" name="question">
+                            <option value="Billing">Billing</option>
+                            <option value="My Services">My Services</option>
+                            <option value="Cost">Cost</option>
+                            <option value="File Exchange">File Exchange</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                   
+                    <div class="text_input">
+                        <label for="name_id">Name</label>
+                        <input type="text" id="name_id" name="name">
+                    </div>
+                    <div class="text_input">
+                        <label for="email_id">Email</label>
+                        <input type="email" id="email_id" name="email_name">
+                    </div>
+                    <div class="text_input">
+                        <label for="message_id">Message</label>
+                        <textarea 
+                        id="message_id" 
+                        name="message"
+                        placeholder="Enter text here"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+        </section>
+    </body>
+</html>
