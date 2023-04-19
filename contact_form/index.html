@@ -18,7 +18,7 @@
                 </h5>
             </header>
             <main>
-                <form>
+                <form method="POST" action="https://getform.io/f/eec2d2d8-789d-40bf-b2c0-7487f40e039a">
                     <div>
                         <label for="question_id">
                             What do you have a question about?
@@ -34,15 +34,32 @@
                    
                     <div class="text_input">
                         <label for="name_id">Name</label>
-                        <input type="text" id="name_id" name="name">
+                        <input
+                        required
+                        minlength="5"
+                        maxlength="25" 
+                        type="text" 
+                        id="name_id" 
+                        name="name"
+                        placeholder="E.g john Smith">
                     </div>
                     <div class="text_input">
                         <label for="email_id">Email</label>
-                        <input type="email" id="email_id" name="email_name">
+                        <input
+                        required
+                        minlength="7" 
+                        maxlength="30"
+                        type="email" 
+                        id="email_id" 
+                        name="email_name"
+                        placeholder="JohnSmith@gmail.com">
                     </div>
                     <div class="text_input">
                         <label for="message_id">Message</label>
                         <textarea 
+                        required
+                        minlength="10"
+                        maxlength="400"
                         id="message_id" 
                         name="message"
                         placeholder="Enter text here"></textarea>

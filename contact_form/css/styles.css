@@ -84,5 +84,14 @@ input[type=submit]:hover {
     background-color:rgb(254, 232, 176);
 }
 
+ input:not(:focus):not(:placeholder-shown):invalid{
+    background-color: salmon;
+}
+
+#message_id:not(:focus):not(:placeholder-shown):invalid {
+    
+    background-color: salmon;
+}
+
 
 
