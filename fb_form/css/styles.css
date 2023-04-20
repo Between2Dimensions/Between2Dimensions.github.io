@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(225, 225, 227)
+}
+
+header img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: lightslategray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(180, 175, 175);
+}
+
+.text_input {
+    padding: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#name_id {
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+#text_input_side_by_side {
+    display: flex;
+    justify-content: space-between;
+}
+
+#email_id {
+    padding: 20px;
+    width: 555px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+
+#password_id {
+    padding: 20px;
+    width: 555px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+#month_id,
+#year_id,
+#day_id {
+    padding: 10px;
+    width: 150px;
+    margin-left: 15px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+}
+
+#birthday_side_by_side,
+#gender_side_by_side {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px;
+    padding: 12px;
+}
+
+h5 {
+    color: lightslategray;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+
+p {
+    margin: 15px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 7px;
+    border: 1px;
+    color: white;
+    background-color: rgb(17, 162, 17);
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    color:lightgrey;
+}
+
+#buttons_1 {
+    text-align: center;
+    margin: 20px;
+}
+
+input[type=button] {
+    padding: 10px;
+    width: 400px;
+    border-radius: 7px;
+    border: 1px;
+    color: rgb(4, 138, 226);
+    background-color: white;
+    font-size: 20px;
+    margin-bottom: 12px;
+
+}
+
+#buttons_2 {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
