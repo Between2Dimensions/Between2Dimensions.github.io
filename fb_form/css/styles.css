@@ -79,6 +79,7 @@ form {
     margin: 0px auto;
     border-radius: 7px;
     border: 1px solid lightgray;
+    padding: 10px;
     
 }
 
@@ -88,12 +89,41 @@ form {
     justify-content: space-between;
     margin: 7px;
     padding: 12px;
+    text-align: center;
+}
+
+#female_id {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+}
+
+#male_id {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+  
+}
+
+#custom_id {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+  
 }
 
 h5 {
     color: lightslategray;
     font-family: sans-serif;
     margin-left: 20px;
+    width: 100%;
+    
 }
 
 
