@@ -1,0 +1,157 @@
+
+body {
+    background-color: #040405;
+}
+
+nav {
+    background-color: #040405;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+    justify-content: right;
+    align-items: right;
+    padding: 0px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+ul li { 
+    padding: 12px;
+}
+
+li a {
+    color: white; 
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#image_nav {
+    width: 50px;
+   
+}
+
+#duo_pack_header {
+    color:#1ce783;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#hero_container {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(../images/hulu-bg.jpeg);
+    height: 80vh;
+    width: 100%;
+    padding: 50px;
+}
+
+
+#hero_cover_text_img {
+    width: 300px;
+}
+#get_them_button,
+#button {
+    background-color:#1ce783;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 12px;
+    display: inline-block;
+    padding: 8px 100px;
+    border-radius: 5px;
+}
+
+.links {
+    color: white;
+    font-size: 14px;
+}
+
+#services_banner {
+    background-color:#040405;
+    padding: 30px;
+    margin: 60px;
+    opacity: 50%;
+}
+
+#on_top {
+    color:#1ce783;
+    font-size: 12px;
+}
+
+
+#inline_image {
+    width: 200px;
+    margin: 0px;
+}
+
+#get_button {
+    border: 2px solid white;
+    width: 100px;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#three_cards,
+#two_cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    color: black;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 200px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(41, 40, 40);
+    color: rgb(210, 208, 208);
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+    margin-top: 0px;
+}
+
+#card_4 {
+    background-image: url(../images/houseofdragon.jpeg);
+
+}
+
+#card_3 {
+    background-image: url(../images/handmaidstale.jpeg);
+}
+
+#card_2 {
+    background-image: url(../images/prey.jpeg); 
+}
+
+#card_1 {
+    background-image: url(../images/bobsburgers.jpeg);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
