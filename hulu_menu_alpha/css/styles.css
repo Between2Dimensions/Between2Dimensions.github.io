@@ -177,6 +177,7 @@ footer img {
 #cards_section h6,
 #cards_section h4 {
     color: white;
+    font-weight: normal;
 }
 
 #cards_container {
