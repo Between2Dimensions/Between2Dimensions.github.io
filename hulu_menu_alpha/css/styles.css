@@ -12,7 +12,7 @@ body {
 
 nav {
     padding: 24px 36px;
-    background: linear-gradient(to bottom, #000000DD,)
+    background: linear-gradient(to bottom, #000000DD, #00000000);
 }
 
 nav ul {
