@@ -30,12 +30,12 @@ nav img {
 
 nav a {
     display: inline-block;
-    color: white;
+    color: rgb(160, 160, 172);
     text-decoration: none;
     padding: 10px;
     transition: background-color 0.5s;
     border-radius: 7px;
-    font-family: sans-serif;
+    font-weight: bold;
 }
 
 nav a:hover {
@@ -51,14 +51,12 @@ nav a:hover {
 
 h5 {
     color: #00ED82;
-    font-family: sans-serif;
     font-weight: normal;
 }
 
 #hero_content p {
     color: white;
     font-size: 22px;
-    font-family: sans-serif;
     text-align: center;
 }
 
@@ -69,7 +67,6 @@ h5 {
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
-    font-family: sans-serif;
     padding: 16px;
     border-radius: 5px;
     width: 670px;
@@ -86,7 +83,6 @@ h5 {
 .mid_link {
     display: inline-block;
     color: white;
-    font-family: sans-serif;
 }
 
 .small_link {
@@ -121,7 +117,6 @@ footer img {
     border: 2px solid white;
     padding: 12px 24px;
     border-radius: 4px;
-    font-family: sans-serif;
     transition:
         background-color 0.5s,
         color 0.5s;
@@ -239,6 +234,10 @@ footer img {
         flex-direction: column;
         text-align: center;
         padding-bottom: 36px;
+    }
+
+    .button_link {
+        width: 80%;
     }
 
     #cards_section {
