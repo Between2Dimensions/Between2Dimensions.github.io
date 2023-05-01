@@ -1,0 +1,237 @@
+
+body {
+    margin: 0px;
+    background-color: #040405;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/backgroundLarge.jpg");
+    background-size: cover;
+}
+
+nav {
+    padding: 24px 36px;
+    background-color:#040405;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    width: 60px;
+}
+
+#sign_up {
+    background-color: rgb(0, 106, 255);
+}
+
+#log_in {
+    border: 1px solid white;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.5s;
+    border-radius: 3px;
+    
+}
+
+#log_in:hover {
+    background-color:white;
+    color: black;
+    
+}
+
+#sign_up:hover {
+    background-color: rgb(1, 154, 249);
+}
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px
+}
+
+#center_bundle_img {
+    width: 500px;
+    margin-bottom: 30px
+}
+
+
+#hero_content p {
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#form_fields {
+    display: flex;
+}
+
+#email_id {
+    background-color: rgb(63, 61, 61);
+    padding: 18px;
+    width: 500px;
+    border: 0px;
+    color: white;
+}
+
+
+#button_1 {
+    background-color:  rgb(0, 106, 255);
+    padding: 18px;
+    color: white;
+    border: 0px;
+    transition: 0.3s;
+    margin-left: 1px
+}
+
+#button_1:hover {
+    background-color:rgb(1, 154, 249);
+}
+
+#disney_and_more {
+    width: 400px;
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+
+
+.small_link,
+.mid_link {
+    display: inline-block;
+    color: white;
+}
+
+.small_link {
+    font-size: px;
+    margin-top: 16px;
+}
+
+.mid_link {
+    margin: 28px;
+}
+
+
+.tiny_link {
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+
+#cards_section {
+    text-align: center;
+    margin-top: 90px;
+}
+
+#lower_headings {
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#lower_headings li {
+    padding: 25px;
+    font-size: 22px;
+
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 295px 295px 295px;
+    grid-auto-rows: 450px;
+    grid-gap: 24px;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: left;    
+    columns: 3;
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#gallery .movie_img {
+    box-sizing: border-box;
+    width: calc(30% - 24px);
+    border-radius: 7px;
+}
+
+
+
+#logo_bottom{
+    width: 100px;
+    margin-top: 150px;
+}
+#above_footer {
+    display: flex;
+    justify-content: center;
+}
+
+#row_1 {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#row_1 p {
+   padding: 30px;
+}
+
+.last {
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 480px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+
+    #form_fields {
+        width: 80%;
+    }
+
+    #cards_section {
+        padding: 0px 24px;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+}
+
+
+
+
+
+
+
+
