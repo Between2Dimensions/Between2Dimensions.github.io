@@ -1,0 +1,174 @@
+
+body {
+    background-color:#fff7dd;
+    font-family: 'Lato', sans-serif;
+    font-weight: inherit;
+    font-size: inherit;
+    color: #594E42;
+    width: 700px;
+}
+
+aside {
+    border: solid 2px;
+    width: 300px;
+    border-radius: 10px;
+    float: right
+}
+
+aside,p {
+    margin-left: 0px auto
+}
+
+h4 {
+    background-color:#594E42;
+    color: #fff7dd;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+#aaravos_bust {
+    width: 300px;
+}
+
+
+p, ul {
+    font-size: 14px;
+}
+
+
+
+nav {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 160px;
+    height: 200px;
+    padding-right: 20px;
+
+}
+
+nav a {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section_2 {
+    padding-top: 950px;
+}
+
+a {
+    color:#b56937;
+}
+
+h1 {
+    font-family:'iM Fell English', serif;
+}
+
+h2 {
+    font-family: 'IM Fell English', serif;
+}
+
+
+
+thead tr {
+    background-color: teal;
+    
+}
+
+
+
+table {
+    float: right;
+    margin: 12px
+
+}
+
+h3 {
+    font-family:'Lato', sans-serif;;
+    text-decoration: underline;
+}
+
+#zane_image_2 {
+    float: left;
+    margin: 12px;
+    width: 150px;
+}
+
+#bug {
+    width: 200px;
+    float: right;
+    margin: 10px;
+    border: solid 1px;
+    padding: 1px
+}
+
+#whispers {
+    width: 200px;
+    float: right;
+    margin: 10px;
+    border: solid 1px;
+    padding: 1px;
+}
+
+#zane_image_3 {
+    float: left;
+    margin: 18px
+}
+
+#zane_image_4 {
+    float: right;
+    margin: 12px;
+}
+
+artical {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 54, 54);
+    line-height: 1.75;
+}
+
+.quote_end {
+    
+    text-align: right;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(56, 54, 54);
+}
+
+#past_quote_header {
+    font-style: italic;
+    line-height: 1.75;
+
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: .25px;
+}
+
+b {
+    font-weight: bold;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+    
+
+
+
+
+
+
