@@ -19,21 +19,35 @@ aside {
 }
 
 aside,p {
-    margin-left: 0px auto
+    margin-left: 0px auto;
+    
+}
+
+#aside_header {
+    font-family:'iM Fell English', serif;
+    font-size: 20px;
 }
 
 h4 {
-    background-color:#594E42;
+    background-color:#443B32 ;
     color: #fff7dd;
     padding: 10px;
     margin: 0px;
     text-align: center;
-    font-family:'iM Fell English', serif;
+    
 
 }
 
 #aaravos_bust {
     width: 300px;
+}
+
+
+.horizontal_info {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -65,7 +79,7 @@ a {
 }
 
 .section_2 {
-    padding-top: 950px;
+    padding-top: 1500px;
 }
 
 #personality_section {
