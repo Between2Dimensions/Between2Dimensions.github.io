@@ -6,6 +6,7 @@ body {
     font-size: inherit;
     color: #594E42;
     width: 700px;
+   
 }
 
 aside {
@@ -61,6 +62,10 @@ a {
 
 .section_2 {
     padding-top: 950px;
+}
+
+#personality_section {
+    padding-top: 50px
 }
 
 a {
