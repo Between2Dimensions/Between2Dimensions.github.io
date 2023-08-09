@@ -38,8 +38,12 @@ h4 {
 
 }
 
+#aside_header {
+    border-radius: 5px 5px 0px 0px;
+}
+
 #aaravos_bust {
-    width: 300px;
+    width: 300px; 
     
 }
 
@@ -102,11 +106,6 @@ h2 {
 
 
 
-thead tr {
-    background-color: teal;
-    
-}
-
 
 
 table {
@@ -152,27 +151,12 @@ h3 {
     margin: 12px;
 }
 
-artical {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(56, 54, 54);
-    line-height: 1.75;
-}
-
-.quote_end {
-    
-    text-align: right;
-}
 
 header {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(56, 54, 54);
 }
 
-#past_quote_header {
-    font-style: italic;
-    line-height: 1.75;
-
-}
 
 h1 {
     font-size: 36px;
