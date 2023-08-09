@@ -16,6 +16,7 @@ aside {
     width: 300px;
     border-radius: 10px;
     float: right;
+    overflow: hidden;
 }
 
 aside,p {
@@ -44,7 +45,15 @@ h4 {
 
 #aaravos_bust {
     width: 300px; 
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
     
+}
+
+#aaravos_bust:hover {
+    width: 350px;
 }
 
 
